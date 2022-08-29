@@ -41,7 +41,7 @@
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--Raleway);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -209,7 +209,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Roboto);
 }
 
 .soft {
@@ -436,7 +436,7 @@ body {
 }
 
 .footer__title {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--Raleway);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -772,6 +772,8 @@ img {
   --first-background-color: #212121;
   --second-background-color: #f5f4fa;
   --background-hero-footer-color: #2f303a;
+  --Roboto:"Roboto", sans-serif;
+  --Raleway:"Raleway", sans-serif;
 }
 
 .visibility-hidden {
